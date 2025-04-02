@@ -1,0 +1,14 @@
+<nav class="nav">
+    <div class="menu">
+        {% assign staticPages = site.pages | sort: "nav_order" %}
+        {% for p in staticPages %}
+            {% if p.nav == true %}
+                {% if p.url == page.url %}
+                    <a class="active" href="{{p.url}}">{{p.title}}</a>
+                {% else %}
+                    <a href="{{p.url}}">{{p.title}}</a>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</nav>

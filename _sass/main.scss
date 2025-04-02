@@ -1,0 +1,7 @@
+@use "theme";
+@use "nav";
+
+body {
+    background-color: theme.$background-base;
+    margin: 0;
+}

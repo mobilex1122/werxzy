@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Silkscreen";
+    src:
+        local("Silkscreen"),
+        url("Silkscreen-Regular.woff2") format("woff2"),
+        url("Silkscreen-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Silkscreen";
+    font-weight: bold;
+    src:
+        local("Silkscreen"),
+        url("Silkscreen-Bold.woff2") format("woff2"),
+        url("Silkscreen-Bold.ttf") format("truetype");
+}
